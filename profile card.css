@@ -1,0 +1,48 @@
+#container{
+    width: 200px;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    border-radius:  10px 10px 10px 10px;
+   
+}
+header{
+    width: 200px;
+    height: 220px;
+    background-color: grey;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Times New Roman';
+}
+img{
+    width: 120px;
+    height: 140px;
+    border: 1.5px solid black;
+    position: relative;
+    top: 15px;  
+}
+aside{
+    width: 200px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 10px;
+    text-align: left;
+}
+footer{
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    line-height: 30px;
+}
+a{
+    color: white;
+    font-size: 15px;
+    font-family: serif;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+}

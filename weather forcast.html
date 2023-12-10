@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(https://gomap.az/maps/az/external/newspic?id=2065);
+        object-fit: contain;
+      }
+
+      .weather-container {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin-top: 0;
+      }
+
+      .location {
+        margin-bottom: 20px;
+      }
+
+      input[type="text"] {
+        padding: 8px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        margin-right: 10px;
+      }
+
+      button {
+        padding: 8px 20px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      .weather-info {
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+      }
+
+      .temperature {
+        font-weight: bold;
+      }
+
+      .description {
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="weather-container">
+      <h1>Weather Forecast</h1>
+      <div class="location">
+        <input type="text" placeholder="Enter location" />
+        <button>Search</button>
+      </div>
+      <div class="weather-info">
+        <h2>City Name</h2>
+        <p class="temperature">Temperature: 27°C</p>
+        <p class="description">
+          Weather is the state of the atmosphere, describing for example the
+          degree to which it is hot or cold, wet or dry, calm or stormy, clear
+          or cloudy.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
